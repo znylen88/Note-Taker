@@ -19,5 +19,5 @@ This project was created to fine-tune my newly learned skills using node.js and 
 
 ## Below is a screenshot of the created PDF:
 
- ![App Function](app-screenshot.png)
+ ![App Function](Screen Shot 2019-12-10 at 3.28.47 PM.png)
 
