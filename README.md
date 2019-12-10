@@ -17,7 +17,11 @@ This project was created to fine-tune my newly learned skills using node.js and 
 
 6. The PDF will contain all the required GitHub user info as well as a background set to the color specified by the user.
 
-## Below is a screenshot of the created PDF:
+## Below is a screenshot of saved Notes in HTML:
+
+ ![App Function](note-taking-demo.png)
+ 
+## Below is a screenshot of updated db.json file with newly saved data:
 
  ![App Function](note-taking-demo.png)
 
