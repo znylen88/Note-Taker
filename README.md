@@ -23,5 +23,5 @@ This project was created to fine-tune my newly learned skills using node.js and 
  
 ## Below is a screenshot of updated db.json file with newly saved data:
 
- ![App Function](note-taking-demo.png)
+ ![App Function](db-json-demo.png)
 
