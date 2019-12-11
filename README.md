@@ -23,6 +23,10 @@ This project was created using newly learned material related to creating server
 
 9. If you wish to see data stored within the db.json file, simply click the "API Notes Link" at the top of the page.
 
+## Below is a screenshot how terminal should look when you spin up your server (Listening on port 3000):
+
+ ![App Function](server-demo.png)
+
 ## Below is a screenshot of saved Notes in HTML:
 
  ![App Function](note-taking-demo.png)
