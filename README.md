@@ -2,20 +2,26 @@
 Application that can be used to write, save, and delete notes.
 
 ## Description
-This project was created to fine-tune my newly learned skills using node.js and ES6+. The objective of the project was to create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: node index.js. The user will be prompted for their GitHub username as well as their favorite color. The app will then generate a html file and a pdf file with the user's GitHub information and favorite color set to the background. This project was difficult simply because it was very new material so it took me awhile to get used to the syntax and flow of things. Overall, I enjoyed creating something new and testing my skills in a whole new facet of web development.
+This project was created using newly learned material related to creating servers and express.js. It also used the methods of GET, POST, and DELETE to render, save, and delete notes in an html file. This application uses an express backend and saves and retrieves note data from a JSON file. 
 
 ## Usage
-1. Open the index.js file, open the terminal and "cd" into the correct directory.
+1. Open the server.js file, open the terminal and "cd" into the correct directory.
 
-2. Once inside the correct directory, install the required NPM installations using "npm install".
+2. Once inside the correct directory, install the required NPM installations using "npm i".
 
-3. Invoke the following command within the terminal to get the app to run (node index).
+3. Invoke the following command within the terminal to get the app to run (node server).
 
-4. The user will be prompted to enter their GitHub username and their favorite color.
+4. The terminal will render the following command (App listening on PORT: 3000).
 
-5. The app will run and create an HTML file first, followed by a converted version of the file, a PDF.
+5. Open the web browser and type in (localhost: 3000), this will take you to the home page of the Note Taker App.
 
-6. The PDF will contain all the required GitHub user info as well as a background set to the color specified by the user.
+6. Click "get started" from the homepage which will take you to a page where you can add note data.
+
+7. Enter title and text data into the input fields and click the save icon. This will save the data to a db.json file and also render the data on the current page.
+
+8. Once rendered, a delete icon will also be created next to the rendered data. To delete a note, simply click this icon on the note you wish to remove. This action will remove the data from the html page as well as the db.json file.
+
+9. If you wish to see data stored within the db.json file, simply click the "API Notes Link" at the top of the page.
 
 ## Below is a screenshot of saved Notes in HTML:
 
