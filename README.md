@@ -2,7 +2,7 @@
 Application that can be used to write, save, and delete notes.
 
 ## Description
-This project was created using newly learned material related to creating servers and express.js. It also used the methods of GET, POST, and DELETE to render, save, and delete notes in an html file. This application uses an express backend and saves and retrieves note data from a JSON file. 
+This project was created using newly learned material related to creating servers and express.js. It also used the methods of GET, POST, and DELETE to render, save, and delete notes in a HTML file. This application uses an express backend and saves and retrieves note data from a JSON file. I struggled with the DELETE method on this app but finally resorted to using the "pop" method to acheive deletion of a given note. I also wasn't able to give an ID to each created note but nonetheless the app was able to function properly using the methods described above. I also created a link to "API Notes" where the user can see created notes added and deleted from the db.json file found on the backend of the application. In addition, I lightly updated the notes.html file to better render both the note's "title" as well as the note's "text".
 
 ## Usage
 1. Open the server.js file, open the terminal and "cd" into the correct directory.
